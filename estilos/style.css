@@ -43,6 +43,9 @@ section#login {
     border-radius: 20px;
     /*Para retirar as bordas que passarem da caixa*/
     overflow: hidden;
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#formulario > h1 {
@@ -50,7 +53,7 @@ section#login > div#formulario > h1 {
     margin-bottom: 10px;
 }
 
-html > body > main > section#login > div#imagem {
+section#login > div#imagem {
     display: block;
     background: #5f2c82 url(../imagens/login-img.jpg) no-repeat center bottom;
     background-size: cover;
@@ -62,4 +65,8 @@ section#login > div#formulario {
     display: block;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+section#login > div#formulario > p {
+    font-size: 0.9em;
 }

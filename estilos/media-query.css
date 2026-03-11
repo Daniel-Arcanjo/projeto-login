@@ -21,7 +21,7 @@
     }
 
     section#login > div#formulario > p {
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 }
@@ -47,11 +47,11 @@
     }
 
     section#login > div#formulario > p {
-    font-size: 1.3em;
+    font-size: 1.1em;
     }
 
     div#formulario h1 {
-        font-size: 2.4em;
+        font-size: 2em;
     }
 
 }
